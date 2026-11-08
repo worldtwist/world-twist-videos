@@ -1,0 +1,1793 @@
+{
+ "fps": 30,
+ "frames": 1591,
+ "scenes": [
+  {
+   "id": "hook",
+   "from": 0,
+   "frames": 130,
+   "start": 0.0,
+   "dur": 4.333,
+   "wordsLocal": [
+    {
+     "w": "In",
+     "s": 0.18
+    },
+    {
+     "w": "this",
+     "s": 0.25
+    },
+    {
+     "w": "world",
+     "s": 0.56
+    },
+    {
+     "w": "the",
+     "s": 1.6
+    },
+    {
+     "w": "kinder",
+     "s": 1.7
+    },
+    {
+     "w": "you",
+     "s": 1.99
+    },
+    {
+     "w": "are",
+     "s": 2.17
+    },
+    {
+     "w": "the",
+     "s": 2.53
+    },
+    {
+     "w": "taller",
+     "s": 2.7
+    },
+    {
+     "w": "you",
+     "s": 3.05
+    },
+    {
+     "w": "grow",
+     "s": 3.22
+    }
+   ]
+  },
+  {
+   "id": "leo",
+   "from": 130,
+   "frames": 83,
+   "start": 4.333,
+   "dur": 2.767,
+   "wordsLocal": [
+    {
+     "w": "Leo",
+     "s": 0.23
+    },
+    {
+     "w": "was",
+     "s": 0.35
+    },
+    {
+     "w": "the",
+     "s": 0.58
+    },
+    {
+     "w": "shortest",
+     "s": 0.81
+    },
+    {
+     "w": "kid",
+     "s": 1.42
+    },
+    {
+     "w": "in",
+     "s": 1.65
+    },
+    {
+     "w": "town",
+     "s": 1.8
+    }
+   ]
+  },
+  {
+   "id": "max",
+   "from": 213,
+   "frames": 122,
+   "start": 7.1,
+   "dur": 4.067,
+   "wordsLocal": [
+    {
+     "w": "Max",
+     "s": 0.18
+    },
+    {
+     "w": "was",
+     "s": 0.38
+    },
+    {
+     "w": "the",
+     "s": 0.64
+    },
+    {
+     "w": "tallest",
+     "s": 0.91
+    },
+    {
+     "w": "And",
+     "s": 1.83
+    },
+    {
+     "w": "he",
+     "s": 1.9
+    },
+    {
+     "w": "never",
+     "s": 2.02
+    },
+    {
+     "w": "let",
+     "s": 2.32
+    },
+    {
+     "w": "anyone",
+     "s": 2.56
+    },
+    {
+     "w": "forget",
+     "s": 2.86
+    },
+    {
+     "w": "it",
+     "s": 3.22
+    }
+   ]
+  },
+  {
+   "id": "lady",
+   "from": 335,
+   "frames": 136,
+   "start": 11.167,
+   "dur": 4.533,
+   "wordsLocal": [
+    {
+     "w": "One",
+     "s": 0.21
+    },
+    {
+     "w": "morning",
+     "s": 0.37
+    },
+    {
+     "w": "Leo",
+     "s": 1.14
+    },
+    {
+     "w": "saw",
+     "s": 1.39
+    },
+    {
+     "w": "an",
+     "s": 1.64
+    },
+    {
+     "w": "old",
+     "s": 1.81
+    },
+    {
+     "w": "lady",
+     "s": 2.06
+    },
+    {
+     "w": "struggling",
+     "s": 2.44
+    },
+    {
+     "w": "with",
+     "s": 2.92
+    },
+    {
+     "w": "her",
+     "s": 3.06
+    },
+    {
+     "w": "heavy",
+     "s": 3.23
+    },
+    {
+     "w": "bags",
+     "s": 3.56
+    }
+   ]
+  },
+  {
+   "id": "carry",
+   "from": 471,
+   "frames": 90,
+   "start": 15.7,
+   "dur": 3.0,
+   "wordsLocal": [
+    {
+     "w": "So",
+     "s": 0.18
+    },
+    {
+     "w": "he",
+     "s": 0.24
+    },
+    {
+     "w": "carried",
+     "s": 0.36
+    },
+    {
+     "w": "them",
+     "s": 0.8
+    },
+    {
+     "w": "all",
+     "s": 1.12
+    },
+    {
+     "w": "the",
+     "s": 1.24
+    },
+    {
+     "w": "way",
+     "s": 1.43
+    },
+    {
+     "w": "to",
+     "s": 1.62
+    },
+    {
+     "w": "her",
+     "s": 1.74
+    },
+    {
+     "w": "house",
+     "s": 1.93
+    }
+   ]
+  },
+  {
+   "id": "grow1",
+   "from": 561,
+   "frames": 87,
+   "start": 18.7,
+   "dur": 2.9,
+   "wordsLocal": [
+    {
+     "w": "And",
+     "s": 0.24
+    },
+    {
+     "w": "he",
+     "s": 0.33
+    },
+    {
+     "w": "grew",
+     "s": 0.54
+    },
+    {
+     "w": "Just",
+     "s": 0.76
+    },
+    {
+     "w": "a",
+     "s": 1.05
+    },
+    {
+     "w": "little",
+     "s": 1.12
+    }
+   ]
+  },
+  {
+   "id": "lunch",
+   "from": 648,
+   "frames": 125,
+   "start": 21.6,
+   "dur": 4.167,
+   "wordsLocal": [
+    {
+     "w": "At",
+     "s": 0.22
+    },
+    {
+     "w": "lunch",
+     "s": 0.27
+    },
+    {
+     "w": "he",
+     "s": 0.68
+    },
+    {
+     "w": "shared",
+     "s": 0.81
+    },
+    {
+     "w": "his",
+     "s": 1.28
+    },
+    {
+     "w": "food",
+     "s": 1.51
+    },
+    {
+     "w": "with",
+     "s": 1.83
+    },
+    {
+     "w": "the",
+     "s": 2.13
+    },
+    {
+     "w": "new",
+     "s": 2.2
+    },
+    {
+     "w": "kid",
+     "s": 2.43
+    },
+    {
+     "w": "He",
+     "s": 2.88
+    },
+    {
+     "w": "grew",
+     "s": 2.98
+    },
+    {
+     "w": "again",
+     "s": 3.19
+    }
+   ]
+  },
+  {
+   "id": "push",
+   "from": 773,
+   "frames": 108,
+   "start": 25.767,
+   "dur": 3.6,
+   "wordsLocal": [
+    {
+     "w": "Max",
+     "s": 0.21
+    },
+    {
+     "w": "pushed",
+     "s": 0.31
+    },
+    {
+     "w": "a",
+     "s": 0.75
+    },
+    {
+     "w": "kid",
+     "s": 0.91
+    },
+    {
+     "w": "out",
+     "s": 1.08
+    },
+    {
+     "w": "of",
+     "s": 1.27
+    },
+    {
+     "w": "the",
+     "s": 1.4
+    },
+    {
+     "w": "line",
+     "s": 1.58
+    },
+    {
+     "w": "and",
+     "s": 2.03
+    },
+    {
+     "w": "shrank",
+     "s": 2.08
+    }
+   ]
+  },
+  {
+   "id": "montage",
+   "from": 881,
+   "frames": 133,
+   "start": 29.367,
+   "dur": 4.433,
+   "wordsLocal": [
+    {
+     "w": "Every",
+     "s": 0.21
+    },
+    {
+     "w": "day",
+     "s": 0.63
+    },
+    {
+     "w": "Leo",
+     "s": 0.93
+    },
+    {
+     "w": "was",
+     "s": 1.22
+    },
+    {
+     "w": "kind",
+     "s": 1.53
+    },
+    {
+     "w": "And",
+     "s": 2.1
+    },
+    {
+     "w": "every",
+     "s": 2.21
+    },
+    {
+     "w": "day",
+     "s": 2.59
+    },
+    {
+     "w": "Max",
+     "s": 2.82
+    },
+    {
+     "w": "was",
+     "s": 3.05
+    },
+    {
+     "w": "mean",
+     "s": 3.28
+    }
+   ]
+  },
+  {
+   "id": "trip",
+   "from": 1014,
+   "frames": 167,
+   "start": 33.8,
+   "dur": 5.567,
+   "wordsLocal": [
+    {
+     "w": "Until",
+     "s": 0.23
+    },
+    {
+     "w": "one",
+     "s": 0.5
+    },
+    {
+     "w": "day",
+     "s": 0.73
+    },
+    {
+     "w": "Max",
+     "s": 0.96
+    },
+    {
+     "w": "tripped",
+     "s": 1.18
+    },
+    {
+     "w": "and",
+     "s": 1.72
+    },
+    {
+     "w": "fell",
+     "s": 1.95
+    },
+    {
+     "w": "Everyone",
+     "s": 2.4
+    },
+    {
+     "w": "laughed",
+     "s": 2.78
+    },
+    {
+     "w": "Everyone",
+     "s": 3.35
+    },
+    {
+     "w": "except",
+     "s": 4.14
+    },
+    {
+     "w": "Leo",
+     "s": 4.65
+    }
+   ]
+  },
+  {
+   "id": "help",
+   "from": 1181,
+   "frames": 81,
+   "start": 39.367,
+   "dur": 2.7,
+   "wordsLocal": [
+    {
+     "w": "Leo",
+     "s": 0.23
+    },
+    {
+     "w": "reached",
+     "s": 0.31
+    },
+    {
+     "w": "down",
+     "s": 0.75
+    },
+    {
+     "w": "and",
+     "s": 1.0
+    },
+    {
+     "w": "helped",
+     "s": 1.18
+    },
+    {
+     "w": "him",
+     "s": 1.57
+    },
+    {
+     "w": "up",
+     "s": 1.76
+    }
+   ]
+  },
+  {
+   "id": "thanks",
+   "from": 1262,
+   "frames": 147,
+   "start": 42.067,
+   "dur": 4.9,
+   "wordsLocal": [
+    {
+     "w": "And",
+     "s": 0.23
+    },
+    {
+     "w": "when",
+     "s": 0.33
+    },
+    {
+     "w": "Max",
+     "s": 0.61
+    },
+    {
+     "w": "said",
+     "s": 0.82
+    },
+    {
+     "w": "thank",
+     "s": 1.12
+    },
+    {
+     "w": "you",
+     "s": 1.45
+    },
+    {
+     "w": "he",
+     "s": 1.92
+    },
+    {
+     "w": "grew",
+     "s": 2.05
+    },
+    {
+     "w": "For",
+     "s": 2.59
+    },
+    {
+     "w": "the",
+     "s": 2.73
+    },
+    {
+     "w": "very",
+     "s": 2.94
+    },
+    {
+     "w": "first",
+     "s": 3.22
+    },
+    {
+     "w": "time",
+     "s": 3.57
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "from": 1409,
+   "frames": 182,
+   "start": 46.967,
+   "dur": 6.067,
+   "wordsLocal": [
+    {
+     "w": "In",
+     "s": 0.16
+    },
+    {
+     "w": "this",
+     "s": 0.24
+    },
+    {
+     "w": "world",
+     "s": 0.53
+    },
+    {
+     "w": "you",
+     "s": 0.92
+    },
+    {
+     "w": "don't",
+     "s": 1.1
+    },
+    {
+     "w": "look",
+     "s": 1.41
+    },
+    {
+     "w": "up",
+     "s": 1.64
+    },
+    {
+     "w": "to",
+     "s": 1.77
+    },
+    {
+     "w": "the",
+     "s": 1.89
+    },
+    {
+     "w": "tallest",
+     "s": 2.07
+    },
+    {
+     "w": "You",
+     "s": 2.76
+    },
+    {
+     "w": "look",
+     "s": 2.94
+    },
+    {
+     "w": "up",
+     "s": 3.18
+    },
+    {
+     "w": "to",
+     "s": 3.3
+    },
+    {
+     "w": "the",
+     "s": 3.42
+    },
+    {
+     "w": "kindest",
+     "s": 3.6
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "In",
+   "s": 0.18,
+   "e": 0.25,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "this",
+   "s": 0.25,
+   "e": 0.56,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "world",
+   "s": 0.56,
+   "e": 1.15,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "the",
+   "s": 1.6,
+   "e": 1.7,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "kinder",
+   "s": 1.7,
+   "e": 1.99,
+   "k": "g",
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "you",
+   "s": 1.99,
+   "e": 2.17,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "are",
+   "s": 2.17,
+   "e": 2.53,
+   "k": null,
+   "end": true,
+   "scene": "hook"
+  },
+  {
+   "w": "the",
+   "s": 2.53,
+   "e": 2.7,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "taller",
+   "s": 2.7,
+   "e": 3.05,
+   "k": "g",
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "you",
+   "s": 3.05,
+   "e": 3.22,
+   "k": null,
+   "end": false,
+   "scene": "hook"
+  },
+  {
+   "w": "grow",
+   "s": 3.22,
+   "e": 3.65,
+   "k": "g",
+   "end": true,
+   "scene": "hook"
+  },
+  {
+   "w": "Leo",
+   "s": 4.563,
+   "e": 4.683,
+   "k": null,
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "was",
+   "s": 4.683,
+   "e": 4.913,
+   "k": null,
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "the",
+   "s": 4.913,
+   "e": 5.143,
+   "k": null,
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "shortest",
+   "s": 5.143,
+   "e": 5.753,
+   "k": "b",
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "kid",
+   "s": 5.753,
+   "e": 5.983,
+   "k": null,
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "in",
+   "s": 5.983,
+   "e": 6.133,
+   "k": null,
+   "end": false,
+   "scene": "leo"
+  },
+  {
+   "w": "town",
+   "s": 6.133,
+   "e": 6.643,
+   "k": null,
+   "end": true,
+   "scene": "leo"
+  },
+  {
+   "w": "Max",
+   "s": 7.28,
+   "e": 7.48,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "was",
+   "s": 7.48,
+   "e": 7.74,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "the",
+   "s": 7.74,
+   "e": 8.01,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "tallest",
+   "s": 8.01,
+   "e": 8.93,
+   "k": "o",
+   "end": true,
+   "scene": "max"
+  },
+  {
+   "w": "And",
+   "s": 8.93,
+   "e": 9.0,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "he",
+   "s": 9.0,
+   "e": 9.12,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "never",
+   "s": 9.12,
+   "e": 9.42,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "let",
+   "s": 9.42,
+   "e": 9.66,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "anyone",
+   "s": 9.66,
+   "e": 9.96,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "forget",
+   "s": 9.96,
+   "e": 10.32,
+   "k": null,
+   "end": false,
+   "scene": "max"
+  },
+  {
+   "w": "it",
+   "s": 10.32,
+   "e": 10.66,
+   "k": null,
+   "end": true,
+   "scene": "max"
+  },
+  {
+   "w": "One",
+   "s": 11.377,
+   "e": 11.537,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "morning",
+   "s": 11.537,
+   "e": 12.307,
+   "k": null,
+   "end": true,
+   "scene": "lady"
+  },
+  {
+   "w": "Leo",
+   "s": 12.307,
+   "e": 12.557,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "saw",
+   "s": 12.557,
+   "e": 12.807,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "an",
+   "s": 12.807,
+   "e": 12.977,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "old",
+   "s": 12.977,
+   "e": 13.227,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "lady",
+   "s": 13.227,
+   "e": 13.607,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "struggling",
+   "s": 13.607,
+   "e": 14.087,
+   "k": "p",
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "with",
+   "s": 14.087,
+   "e": 14.227,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "her",
+   "s": 14.227,
+   "e": 14.397,
+   "k": null,
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "heavy",
+   "s": 14.397,
+   "e": 14.727,
+   "k": "p",
+   "end": false,
+   "scene": "lady"
+  },
+  {
+   "w": "bags",
+   "s": 14.727,
+   "e": 15.247,
+   "k": null,
+   "end": true,
+   "scene": "lady"
+  },
+  {
+   "w": "So",
+   "s": 15.88,
+   "e": 15.94,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "he",
+   "s": 15.94,
+   "e": 16.06,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "carried",
+   "s": 16.06,
+   "e": 16.5,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "them",
+   "s": 16.5,
+   "e": 16.82,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "all",
+   "s": 16.82,
+   "e": 16.94,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "the",
+   "s": 16.94,
+   "e": 17.13,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "way",
+   "s": 17.13,
+   "e": 17.32,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "to",
+   "s": 17.32,
+   "e": 17.44,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "her",
+   "s": 17.44,
+   "e": 17.63,
+   "k": null,
+   "end": false,
+   "scene": "carry"
+  },
+  {
+   "w": "house",
+   "s": 17.63,
+   "e": 18.18,
+   "k": null,
+   "end": true,
+   "scene": "carry"
+  },
+  {
+   "w": "And",
+   "s": 18.94,
+   "e": 19.03,
+   "k": null,
+   "end": false,
+   "scene": "grow1"
+  },
+  {
+   "w": "he",
+   "s": 19.03,
+   "e": 19.24,
+   "k": null,
+   "end": false,
+   "scene": "grow1"
+  },
+  {
+   "w": "grew",
+   "s": 19.24,
+   "e": 19.46,
+   "k": "g",
+   "end": true,
+   "scene": "grow1"
+  },
+  {
+   "w": "Just",
+   "s": 19.46,
+   "e": 19.75,
+   "k": null,
+   "end": false,
+   "scene": "grow1"
+  },
+  {
+   "w": "a",
+   "s": 19.75,
+   "e": 19.82,
+   "k": null,
+   "end": false,
+   "scene": "grow1"
+  },
+  {
+   "w": "little",
+   "s": 19.82,
+   "e": 20.5,
+   "k": null,
+   "end": true,
+   "scene": "grow1"
+  },
+  {
+   "w": "At",
+   "s": 21.82,
+   "e": 21.87,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "lunch",
+   "s": 21.87,
+   "e": 22.28,
+   "k": null,
+   "end": true,
+   "scene": "lunch"
+  },
+  {
+   "w": "he",
+   "s": 22.28,
+   "e": 22.41,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "shared",
+   "s": 22.41,
+   "e": 22.88,
+   "k": "g",
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "his",
+   "s": 22.88,
+   "e": 23.11,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "food",
+   "s": 23.11,
+   "e": 23.43,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "with",
+   "s": 23.43,
+   "e": 23.73,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "the",
+   "s": 23.73,
+   "e": 23.8,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "new",
+   "s": 23.8,
+   "e": 24.03,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "kid",
+   "s": 24.03,
+   "e": 24.48,
+   "k": null,
+   "end": true,
+   "scene": "lunch"
+  },
+  {
+   "w": "He",
+   "s": 24.48,
+   "e": 24.58,
+   "k": null,
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "grew",
+   "s": 24.58,
+   "e": 24.79,
+   "k": "g",
+   "end": false,
+   "scene": "lunch"
+  },
+  {
+   "w": "again",
+   "s": 24.79,
+   "e": 25.24,
+   "k": null,
+   "end": true,
+   "scene": "lunch"
+  },
+  {
+   "w": "Max",
+   "s": 25.977,
+   "e": 26.077,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "pushed",
+   "s": 26.077,
+   "e": 26.517,
+   "k": "r",
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "a",
+   "s": 26.517,
+   "e": 26.677,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "kid",
+   "s": 26.677,
+   "e": 26.847,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "out",
+   "s": 26.847,
+   "e": 27.037,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "of",
+   "s": 27.037,
+   "e": 27.167,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "the",
+   "s": 27.167,
+   "e": 27.347,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "line",
+   "s": 27.347,
+   "e": 27.797,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "and",
+   "s": 27.797,
+   "e": 27.847,
+   "k": null,
+   "end": false,
+   "scene": "push"
+  },
+  {
+   "w": "shrank",
+   "s": 27.847,
+   "e": 28.447,
+   "k": "r",
+   "end": true,
+   "scene": "push"
+  },
+  {
+   "w": "Every",
+   "s": 29.577,
+   "e": 29.997,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "day",
+   "s": 29.997,
+   "e": 30.297,
+   "k": null,
+   "end": true,
+   "scene": "montage"
+  },
+  {
+   "w": "Leo",
+   "s": 30.297,
+   "e": 30.587,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "was",
+   "s": 30.587,
+   "e": 30.897,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "kind",
+   "s": 30.897,
+   "e": 31.467,
+   "k": "g",
+   "end": true,
+   "scene": "montage"
+  },
+  {
+   "w": "And",
+   "s": 31.467,
+   "e": 31.577,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "every",
+   "s": 31.577,
+   "e": 31.957,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "day",
+   "s": 31.957,
+   "e": 32.187,
+   "k": null,
+   "end": true,
+   "scene": "montage"
+  },
+  {
+   "w": "Max",
+   "s": 32.187,
+   "e": 32.417,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "was",
+   "s": 32.417,
+   "e": 32.647,
+   "k": null,
+   "end": false,
+   "scene": "montage"
+  },
+  {
+   "w": "mean",
+   "s": 32.647,
+   "e": 33.197,
+   "k": "r",
+   "end": true,
+   "scene": "montage"
+  },
+  {
+   "w": "Until",
+   "s": 34.03,
+   "e": 34.3,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "one",
+   "s": 34.3,
+   "e": 34.53,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "day",
+   "s": 34.53,
+   "e": 34.76,
+   "k": null,
+   "end": true,
+   "scene": "trip"
+  },
+  {
+   "w": "Max",
+   "s": 34.76,
+   "e": 34.98,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "tripped",
+   "s": 34.98,
+   "e": 35.52,
+   "k": "r",
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "and",
+   "s": 35.52,
+   "e": 35.75,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "fell",
+   "s": 35.75,
+   "e": 36.2,
+   "k": null,
+   "end": true,
+   "scene": "trip"
+  },
+  {
+   "w": "Everyone",
+   "s": 36.2,
+   "e": 36.58,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "laughed",
+   "s": 36.58,
+   "e": 37.15,
+   "k": "r",
+   "end": true,
+   "scene": "trip"
+  },
+  {
+   "w": "Everyone",
+   "s": 37.15,
+   "e": 37.94,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "except",
+   "s": 37.94,
+   "e": 38.45,
+   "k": null,
+   "end": false,
+   "scene": "trip"
+  },
+  {
+   "w": "Leo",
+   "s": 38.45,
+   "e": 38.8,
+   "k": null,
+   "end": true,
+   "scene": "trip"
+  },
+  {
+   "w": "Leo",
+   "s": 39.597,
+   "e": 39.677,
+   "k": null,
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "reached",
+   "s": 39.677,
+   "e": 40.117,
+   "k": null,
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "down",
+   "s": 40.117,
+   "e": 40.367,
+   "k": null,
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "and",
+   "s": 40.367,
+   "e": 40.547,
+   "k": null,
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "helped",
+   "s": 40.547,
+   "e": 40.937,
+   "k": "g",
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "him",
+   "s": 40.937,
+   "e": 41.127,
+   "k": null,
+   "end": false,
+   "scene": "help"
+  },
+  {
+   "w": "up",
+   "s": 41.127,
+   "e": 41.467,
+   "k": null,
+   "end": true,
+   "scene": "help"
+  },
+  {
+   "w": "And",
+   "s": 42.297,
+   "e": 42.397,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "when",
+   "s": 42.397,
+   "e": 42.677,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "Max",
+   "s": 42.677,
+   "e": 42.887,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "said",
+   "s": 42.887,
+   "e": 43.187,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "thank",
+   "s": 43.187,
+   "e": 43.517,
+   "k": "g",
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "you",
+   "s": 43.517,
+   "e": 43.987,
+   "k": "g",
+   "end": true,
+   "scene": "thanks"
+  },
+  {
+   "w": "he",
+   "s": 43.987,
+   "e": 44.117,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "grew",
+   "s": 44.117,
+   "e": 44.657,
+   "k": "g",
+   "end": true,
+   "scene": "thanks"
+  },
+  {
+   "w": "For",
+   "s": 44.657,
+   "e": 44.797,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "the",
+   "s": 44.797,
+   "e": 45.007,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "very",
+   "s": 45.007,
+   "e": 45.287,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "first",
+   "s": 45.287,
+   "e": 45.637,
+   "k": null,
+   "end": false,
+   "scene": "thanks"
+  },
+  {
+   "w": "time",
+   "s": 45.637,
+   "e": 46.067,
+   "k": null,
+   "end": true,
+   "scene": "thanks"
+  },
+  {
+   "w": "In",
+   "s": 47.127,
+   "e": 47.207,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "this",
+   "s": 47.207,
+   "e": 47.497,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "world",
+   "s": 47.497,
+   "e": 47.887,
+   "k": null,
+   "end": true,
+   "scene": "end"
+  },
+  {
+   "w": "you",
+   "s": 47.887,
+   "e": 48.067,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "don't",
+   "s": 48.067,
+   "e": 48.377,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "look",
+   "s": 48.377,
+   "e": 48.607,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "up",
+   "s": 48.607,
+   "e": 48.737,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "to",
+   "s": 48.737,
+   "e": 48.857,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "the",
+   "s": 48.857,
+   "e": 49.037,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "tallest",
+   "s": 49.037,
+   "e": 49.727,
+   "k": "o",
+   "end": true,
+   "scene": "end"
+  },
+  {
+   "w": "You",
+   "s": 49.727,
+   "e": 49.907,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "look",
+   "s": 49.907,
+   "e": 50.147,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "up",
+   "s": 50.147,
+   "e": 50.267,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "to",
+   "s": 50.267,
+   "e": 50.387,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "the",
+   "s": 50.387,
+   "e": 50.567,
+   "k": null,
+   "end": false,
+   "scene": "end"
+  },
+  {
+   "w": "kindest",
+   "s": 50.567,
+   "e": 51.217,
+   "k": "y",
+   "end": true,
+   "scene": "end"
+  }
+ ]
+}
