@@ -60,12 +60,12 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
   Metricool fetches it and copies it to its own storage (tested).
 - Metricool brand `blogId` 7969308, timezone Africa/Casablanca. One `createScheduledPost` per network:
   - YouTube: `youtubeData` {title, type "short", privacy "public", tags, category "FILM_ANIMATION",
-    madeForKids true, isAiGeneratedContent false}; `text` = description.
+    madeForKids false, isAiGeneratedContent false}; `text` = description.
   - TikTok: `tiktokData` needs a `title`; privacyOption PUBLIC_TO_EVERYONE, isAigc false.
   - Instagram: `instagramData` {type "REEL", showReelOnFeed true, isAiGenerated false}.
   - Optional `videoCoverMilliseconds` on TikTok/Instagram only (never YouTube: rejected on unverified channels).
   - After the publish time, `getScheduledPosts` shows `status: PUBLISHED` and `publicUrl` per network.
-- Owner's choices: no AI label on TikTok/Instagram, YouTube "made for kids" = yes, same voice every time.
+- Owner's choices: no AI label on TikTok/Instagram, YouTube "made for kids" = NO (changed 2026-11-09 so comments stay on), same voice every time.
 - Add the video (web copy) to the "My videos" artifact page (slug 49b9c475-b8cd-4352-8795-9ea6d7b2dfb0):
   read its index.html, add a new card at the top of the grid, `publish_files` index.html + the mp4.
 
