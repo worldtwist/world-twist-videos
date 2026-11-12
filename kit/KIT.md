@@ -39,8 +39,17 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
 4. **Numbers over heads** (`Labels.tsx`): CURVES maps character key → value by scale. For a story
    without a counter, set `CURVES = {}` (no numbers). For a story with a counter, map it there.
 5. **Captions** (`Captions.tsx`): one word at a time, lower-middle, keywords yellow. Automatic.
-6. **Sound**: `src/events.json` lists grow/shrink/push/thud moments per scene (local seconds);
-   `python3 make_audio.py` makes `music.wav` + `sfx.wav`; mix with:
+6. **Sound** (owner's choice since 2026-11-12: the sound of the trending "In this world…" shorts —
+   upbeat, plucky synth-pop / chiptune at ~122 BPM with kick, clap, hi-hats and bass, a soft whoosh
+   on every scene cut and a sound effect on every twist). `make_audio.py` builds it from
+   `src/timeline.json` + `src/events.json` and needs NO edits per story — only write `src/events.json`:
+   `{scene_id: [{"t": local_seconds, "type": ...}]}` with types `grow` (good thing / number up),
+   `shrink` or `drop` (glitchy pitch-drop: bad thing / number plunges), `thud`, `push`, `pop`
+   (something appears), `ding` (idea, "correct!"), `sparkle` (magic change), `whoosh` (fast move).
+   Put an effect on every twist and reveal, like the trending shorts do. For a sad or emotional
+   beat add `{"type": "calm"}` (whole scene) or `{"t": x, "type": "calm"}` (from x to the scene's end;
+   optional `"until"`): drums stop and the music goes soft. Cut whooshes and the opening hit are
+   automatic. `python3 make_audio.py` makes `music.wav` + `sfx.wav`; mix with:
    `ffmpeg -i voice.wav -i music.wav -i sfx.wav -filter_complex "[0:a]aresample=44100,aformat=channel_layouts=mono,asplit=2[v][vk];[1:a]volume=0.55[m];[m][vk]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[md];[2:a]volume=0.8[s];[v][md][s]amix=inputs=3:normalize=0:duration=longest,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[out]" -map "[out]" -c:a aac -b:a 192k -ac 2 mix.m4a`
 7. **Check before rendering**: `node stills.mjs <frames…>` renders full-size stills to `out/st_*.png`;
    `python3 sheet.py out/sheet.jpg out/st_*.png` makes a contact sheet. Look at the key moment of
@@ -65,7 +74,8 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
   - Instagram: `instagramData` {type "REEL", showReelOnFeed true, isAiGenerated false}.
   - Optional `videoCoverMilliseconds` on TikTok/Instagram only (never YouTube: rejected on unverified channels).
   - After the publish time, `getScheduledPosts` shows `status: PUBLISHED` and `publicUrl` per network.
-- Owner's choices: no AI label on TikTok/Instagram, YouTube "made for kids" = NO (changed 2026-11-09 so comments stay on), same voice every time.
+- Owner's choices: no AI label on TikTok/Instagram, YouTube "made for kids" = NO (changed 2026-11-09 so comments stay on), same voice every time,
+  upbeat synth-pop sound from `make_audio.py` (changed 2026-11-12; replaced the slow piano).
 - Add the video (web copy) to the "My videos" artifact page (slug 49b9c475-b8cd-4352-8795-9ea6d7b2dfb0):
   read its index.html, add a new card at the top of the grid, `publish_files` index.html + the mp4.
 
