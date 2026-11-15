@@ -63,17 +63,26 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
 9. **Final check**: 1 fps contact sheet of the whole video, frame count = timeline frames, audio
    present (`ebur128` integrated loudness around -14 to -16 LUFS).
 
-## 3. Publishing (what worked on 2026-11-08)
+## 3. Publishing (Buffer since 2026-11-15; Metricool Free stopped at 20 posts/month)
 - Commit the web copy to this repo as `videos/YYYY-MM-DD-<slug>.mp4` and push to `main`.
   Public URL: `https://raw.githubusercontent.com/worldtwist/world-twist-videos/main/videos/<file>`.
-  Metricool fetches it and copies it to its own storage (tested).
-- Metricool brand `blogId` 7969308, timezone Africa/Casablanca. One `createScheduledPost` per network:
-  - YouTube: `youtubeData` {title, type "short", privacy "public", tags, category "FILM_ANIMATION",
-    madeForKids false, isAiGeneratedContent false}; `text` = description.
-  - TikTok: `tiktokData` needs a `title`; privacyOption PUBLIC_TO_EVERYONE, isAigc false.
-  - Instagram: `instagramData` {type "REEL", showReelOnFeed true, isAiGenerated false}.
-  - Optional `videoCoverMilliseconds` on TikTok/Instagram only (never YouTube: rejected on unverified channels).
-  - After the publish time, `getScheduledPosts` shows `status: PUBLISHED` and `publicUrl` per network.
+  Buffer fetches the video from that URL (tested 2026-11-15, all 3 networks published).
+- Post with the **Buffer** connector (NOT Metricool). Organization "My organization" id `6af9842cb8d434e1d6d03c30`,
+  timezone Africa/Casablanca. One `create_post` per channel, `schedulingType` "automatic", `mode` "shareNow",
+  `assets` = [{video: {url: <public URL>}}]:
+  - YouTube channel `6af98537ece6dfde5fd048bf` ("World twist"): `text` = description;
+    `metadata.youtube` {title, categoryId "1" (Film & Animation), privacy "public", madeForKids false, isAiGenerated false}.
+    No thumbnailOffset on YouTube.
+  - TikTok channel `6af984deece6dfde5fd0448e` (world.twist6): `text` = caption; `metadata.tiktok` {title, isAiGenerated false};
+    optional video `metadata.thumbnailOffset` (ms) for the cover.
+  - Instagram channel `6af98489ece6dfde5fd0408f` (wor_ldtwist, business): `text` = caption;
+    `metadata.instagram` {type "reel", shouldShareToFeed true, isAiGenerated false}; optional `thumbnailOffset`.
+  - Never guess channel ids: if a call says a channel is unknown, run `list_channels` for the organization.
+  - A few minutes later, `get_post` on each post id: `status` "sent" and `externalLink` = the public link.
+    YouTube/TikTok take ~1-2 min, Instagram ~3 min. Status "error" has an `error` field: report it.
+  - Buffer Free: 3 channels, max 10 *queued* posts per channel (shareNow posts don't wait in the queue), no monthly cap.
+    YouTube unverified channels: max 10 posts per 24 h.
+- Metricool (blogId 7969308) is no longer used for posting: its Free plan allows only 20 posts per calendar month.
 - Owner's choices: no AI label on TikTok/Instagram, YouTube "made for kids" = NO (changed 2026-11-09 so comments stay on), same voice every time,
   upbeat synth-pop sound from `make_audio.py` (changed 2026-11-12; replaced the slow piano).
 - Add the video (web copy) to the "My videos" artifact page (slug 49b9c475-b8cd-4352-8795-9ea6d7b2dfb0):
