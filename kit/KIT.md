@@ -68,8 +68,11 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
   Public URL: `https://raw.githubusercontent.com/worldtwist/world-twist-videos/main/videos/<file>`.
   Buffer fetches the video from that URL (tested 2026-11-15, all 3 networks published).
 - Post with the **Buffer** connector (NOT Metricool). Organization "My organization" id `6af9842cb8d434e1d6d03c30`,
-  timezone Africa/Casablanca. One `create_post` per channel, `schedulingType` "automatic", `mode` "shareNow",
-  `assets` = [{video: {url: <public URL>}}]:
+  timezone Africa/Casablanca. One `create_post` per channel, `schedulingType` "automatic",
+  `assets` = [{video: {url: <public URL>}}].
+  **Post time: 9:30 AM owner's time every day** (owner's choice, 2026-11-15): take `currentTime` from `get_account`;
+  if it is before 09:25, use `mode` "customScheduled" + `dueAt` = today 09:30:00 with the same UTC offset;
+  if the video is late (09:25 or later), use `mode` "shareNow".
   - YouTube channel `6af98537ece6dfde5fd048bf` ("World twist"): `text` = description;
     `metadata.youtube` {title, categoryId "1" (Film & Animation), privacy "public", madeForKids false, isAiGenerated false}.
     No thumbnailOffset on YouTube.
