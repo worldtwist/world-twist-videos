@@ -5,12 +5,16 @@ for the World Twist channel. The first video (2026-11-08, "the kinder you are, t
 grow") was made with exactly these files; `src/scenes.tsx`, `src/events.json`, `src/Labels.tsx`
 (CURVES) and `script.json` are that story's versions — use them as the model for new stories.
 
-## 0. Before anything else (skip days and duplicates)
+## 0. Before anything else (skip days, "alive" marker, duplicates)
 - **Skipped days (owner's choice): 2026-11-16.** If today's date (Africa/Casablanca) is listed here, do NOT make
   or post a video; end the run after a one-line report.
-- If `stories.md` already has a row for today's date, today's video already exists or is being made elsewhere
-  (for example by the backup in the owner's chat): do NOT make or post another one; end after a one-line report.
-- Right before posting, `git pull` and check `stories.md` again; if another row for today appeared meanwhile, do not post.
+- `git pull`. If `stories.md` already has any row for today's date, today's video already exists or is being made
+  elsewhere (e.g. by the backup in the owner's chat): do NOT make or post another one; end after a one-line report.
+- Otherwise, right away add the row `| YYYY-MM-DD | in progress (scheduled run, started HH:MM) | | |` to `stories.md`,
+  commit and push. This tells the backup check (08:30 in the owner's chat) that the scheduled run is alive.
+- Right before posting, `git pull` again: if today's row now says `in progress (backup in chat)`, do NOT post.
+- When done, replace today's in-progress row with the normal finished row.
+- The backup in the owner's chat follows the same rules with the marker `in progress (backup in chat)`.
 
 ## 1. Rebuild the workspace (fresh cloud session)
 Scripts use absolute paths under `/root/work/itw`, so copy the kit there:
