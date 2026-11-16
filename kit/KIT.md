@@ -5,6 +5,13 @@ for the World Twist channel. The first video (2026-11-08, "the kinder you are, t
 grow") was made with exactly these files; `src/scenes.tsx`, `src/events.json`, `src/Labels.tsx`
 (CURVES) and `script.json` are that story's versions — use them as the model for new stories.
 
+## 0. Before anything else (skip days and duplicates)
+- **Skipped days (owner's choice): 2026-11-16.** If today's date (Africa/Casablanca) is listed here, do NOT make
+  or post a video; end the run after a one-line report.
+- If `stories.md` already has a row for today's date, today's video already exists or is being made elsewhere
+  (for example by the backup in the owner's chat): do NOT make or post another one; end after a one-line report.
+- Right before posting, `git pull` and check `stories.md` again; if another row for today appeared meanwhile, do not post.
+
 ## 1. Rebuild the workspace (fresh cloud session)
 Scripts use absolute paths under `/root/work/itw`, so copy the kit there:
 ```
