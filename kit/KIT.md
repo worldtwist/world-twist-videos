@@ -12,7 +12,8 @@ grow") was made with exactly these files; `src/scenes.tsx`, `src/events.json`, `
   elsewhere (e.g. by the backup in the owner's chat): do NOT make or post another one; end after a one-line report.
 - Otherwise, right away add the row `| YYYY-MM-DD | in progress (scheduled run, started HH:MM) | | |` to `stories.md`,
   commit and push. This tells the backup check (08:30 in the owner's chat) that the scheduled run is alive.
-- Right before posting, `git pull` again: if today's row now says `in progress (backup in chat)`, do NOT post.
+- Right before posting, `git pull` again: if today's row is no longer your own `in progress (scheduled run…)` row
+  (e.g. it says `backup in chat` or the video is already posted), do NOT post.
 - When done, replace today's in-progress row with the normal finished row.
 - The backup in the owner's chat follows the same rules with the marker `in progress (backup in chat)`.
 
