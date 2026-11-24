@@ -86,7 +86,8 @@ Then install the voice/transcription tools (the `video-editor-setup` skill descr
   if it is before 09:25, use `mode` "customScheduled" + `dueAt` = today 09:30:00 with the same UTC offset;
   if the video is late (09:25 or later), use `mode` "shareNow".
   - YouTube channel `6af98537ece6dfde5fd048bf` ("World twist"): `text` = description;
-    `metadata.youtube` {title, categoryId "1" (Film & Animation), privacy "public", madeForKids false, isAiGenerated false}.
+    `metadata.youtube` {title, categoryId "1" (Film & Animation), privacy "public", madeForKids false, isAiGenerated false, type "short"}
+    (Buffer requires `type` "short" | "regularVideo" since 2026-11-24).
     No thumbnailOffset on YouTube.
   - TikTok channel `6af984deece6dfde5fd0448e` (world.twist6): `text` = caption; `metadata.tiktok` {title, isAiGenerated false};
     optional video `metadata.thumbnailOffset` (ms) for the cover.
